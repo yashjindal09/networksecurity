@@ -24,7 +24,8 @@ from sklearn.ensemble import (
     RandomForestClassifier,
 )
 import mlflow
-
+import dagshub
+dagshub.init(repo_owner='yashjindal09', repo_name='my-first-repo', mlflow=True)
 
 
 
